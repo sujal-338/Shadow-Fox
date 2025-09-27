@@ -1,7 +1,7 @@
 total = 100
 done = 0
 
-while done < total:
+for i in range(10):
     print("Do 10 jumping jacks")
     done = done + 10
     if done >= total:
@@ -19,3 +19,5 @@ if done >= total:
     print("Congratulations! You completed the workout")
 else:
     print("You completed a total of", done, "jumping jacks")
+
+
